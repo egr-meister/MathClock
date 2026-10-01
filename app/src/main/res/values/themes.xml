@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.MathClock" parent="android:Theme.Material.Light.NoActionBar">
+        <item name="android:windowBackground">@color/ivory</item>
+    </style>
+
+    <!-- Launch screen: same ivory background and clock icon; dismissed on the first frame. -->
+    <style name="Theme.MathClock.Starting" parent="Theme.SplashScreen">
+        <item name="windowSplashScreenBackground">@color/ivory</item>
+        <item name="windowSplashScreenAnimatedIcon">@drawable/ic_splash_clock</item>
+        <item name="postSplashScreenTheme">@style/Theme.MathClock</item>
+    </style>
+</resources>

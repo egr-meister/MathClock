@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- Clock face with navy ring -->
+    <path android:fillColor="#FFFFFDF7" android:strokeColor="#FF1F2A44" android:strokeWidth="3"
+        android:pathData="M30,52 A22,22 0 1,1 74,52 A22,22 0 1,1 30,52 Z" />
+    <!-- Hour ticks at 12, 3, 6, 9 -->
+    <path android:strokeColor="#FF1F2A44" android:strokeWidth="2.2" android:strokeLineCap="round"
+        android:pathData="M52,33 L52,36 M71,52 L68,52 M52,71 L52,68 M33,52 L36,52" />
+    <!-- Hour hand (short, wide) -->
+    <path android:strokeColor="#FF1F2A44" android:strokeWidth="4" android:strokeLineCap="round"
+        android:pathData="M52,52 L52,41" />
+    <!-- Minute hand (long, thin) -->
+    <path android:strokeColor="#FF13777A" android:strokeWidth="2.4" android:strokeLineCap="round"
+        android:pathData="M52,52 L64,59" />
+    <path android:fillColor="#FF1F2A44" android:pathData="M49.5,52 A2.5,2.5 0 1,1 54.5,52 A2.5,2.5 0 1,1 49.5,52 Z" />
+    <!-- Plus badge -->
+    <path android:fillColor="#FFF4DE8C" android:strokeColor="#FF1F2A44" android:strokeWidth="2"
+        android:pathData="M63,71 A9,9 0 1,1 81,71 A9,9 0 1,1 63,71 Z" />
+    <path android:strokeColor="#FF1F2A44" android:strokeWidth="2.6" android:strokeLineCap="round"
+        android:pathData="M72,66 L72,76 M67,71 L77,71" />
+</vector>

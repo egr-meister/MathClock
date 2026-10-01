@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="ivory">#FFFFF8EC</color>
+    <color name="clock_frame">#FF8DB4DA</color>
+    <color name="navy">#FF1F2A44</color>
+    <color name="teal">#FF13777A</color>
+    <color name="ic_launcher_background">#FF8DB4DA</color>
+</resources>
